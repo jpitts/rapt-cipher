@@ -1,0 +1,48 @@
+{
+  "name": "rapt-cipher-chit-chat-example",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Jamie Pitts <james.pitts@gmail.com>",
+  "description": "Example web app in which messages are passed between node servers.",
+  "contributors": [ 
+    {
+      "name": "Jamie Pitts",
+      "email": "james.pitts@gmail.com"
+    } 
+  ],
+  "bin": {
+  },
+  "scripts": {
+  },
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpitts/rapt-cipher.git"
+  },
+  "keywords": [
+    "message passing",
+    "node.js",
+    "redis"
+  ],
+  "dependencies" : {
+    "socket.io": "0.9.x",
+    "socket.io-client": "0.9.x",
+    "forever": "0.10.x",
+    "forever-monitor": "1.2.x",
+    "express": "3.4.x",
+    "express-partials": "0.1.x",
+    "ejs": "0.8.x",
+    "crypto":"0.0.3"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "mocha": "1.16.x"
+  },
+  "bundledDependencies": [
+  ],  
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
+
