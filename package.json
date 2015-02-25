@@ -1,7 +1,7 @@
 {
   "name": "rapt-cipher",
   "preferGlobal": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jamie Pitts <james.pitts@gmail.com>",
   "description": "Redis-based message-passing framework for node.js.",
   "contributors": [
